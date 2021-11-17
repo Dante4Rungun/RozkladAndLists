@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1377</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1391</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(163, 163, 163)</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1381</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgonline-com-ua-Resize-Je56AJbsGQdV.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>10</y>
+       <width>381</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;
+color:rgb(159, 0, 0);
+font: 40pt &quot;Vladimir Script&quot;;</string>
+     </property>
+     <property name="text">
+      <string>W E L C O M E</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>580</y>
+       <width>251</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;
+color:rgb(159, 0, 0);
+font: 20pt &quot;Vladimir Script&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Created by Denis Chuprin</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Розклад</string>
+    </attribute>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1381</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>city.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fixNull">
+     <property name="geometry">
+      <rect>
+       <x>734</x>
+       <y>460</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>fixNull</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="beginData">
+     <property name="geometry">
+      <rect>
+       <x>592</x>
+       <y>310</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Дата початку періоду</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="endData">
+     <property name="geometry">
+      <rect>
+       <x>592</x>
+       <y>360</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Дата кінця періоду</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEditFix">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>10</y>
+       <width>485</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="subjName">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>80</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Файл предмети-вчителі(формат .xls)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="schoolName_2">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>180</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Назва закладу освіти</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="rings">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>130</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Файл з дзвінками(формат .xls)</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEditRozklad">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>571</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="numberSheets">
+     <property name="geometry">
+      <rect>
+       <x>592</x>
+       <y>270</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Номер листа для обробки</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="rozkladName">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>30</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Файл з розкладом(формат .xls)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>460</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>СТАРТ</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="firstLineRing">
+     <property name="geometry">
+      <rect>
+       <x>592</x>
+       <y>230</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>перехід дзвінків по класам (напр.4-Б 11-А)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Списки</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>2</y>
+       <width>1381</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>city2.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="schoolName">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>200</y>
+       <width>271</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+</string>
+     </property>
+     <property name="text">
+      <string>Назва закладу освіти</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="studentsFile">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>271</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Ім'я файлу зі списком учнів</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="teachersFile">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>271</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Ім'я файлу зі списком вчителів</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>20</y>
+       <width>971</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>260</y>
+       <width>191</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="text">
+      <string>Обробка файлів</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
